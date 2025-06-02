@@ -1,0 +1,13 @@
+I will develop a new social media platform application. I need to choose the correct database.
+Requirements are
+- Millions of users
+- Need to store profiles, posts, and connections between users
+- High data read speed required
+- Expected 80% read operations, 20% write operations
+- Scalability is important as the user base grows
+Let's analyze the requirements and investigate step by step points, providing a chain reasoning, explaining each step to:
+- Fit the requirements
+- Select most suitable database
+You are able to: use cloud, use self hosted resources, choose between sql and no sql, just explain me why did you choose this database. 
+Provide a detail description for every step that you did to identify reasons for choosing one or another db.
+It is not necessary but recommended to choose only one
