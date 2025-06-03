@@ -1,0 +1,3 @@
+Logout button doesn’t work on Safari. It just doesn’t respond.
+Can you describe this as a bug report?
+also add severity class to it
