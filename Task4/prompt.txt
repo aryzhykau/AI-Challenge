@@ -1,0 +1,27 @@
+def process_user_data(data):
+    users = []
+    
+    for i in range(len(data)):
+        user = {
+            "id": data[i]["id"],
+            "name": data[i]["name"],
+            "email": data[i]["email"],
+            "active": True if data[i]["status"] == "active" else False
+        }
+        users.append(user)
+    
+    print("Processed " + str(len(users)) + " users")
+    
+    return users
+
+def save_to_database(users):
+    # TODO: Implement database connection
+    success = True
+    return success
+
+Analyze this code and provide 3 kinds of feedback acting like you are taking 3 roles that are:
+- Lead developer,
+- Security Engineer
+- Perfomance Architect
+Provide a detailed feedback from each role, mark weaknesses and put a comments into the code.
+Also from each role provide an approvement choice for this code and suggest code changes with 
