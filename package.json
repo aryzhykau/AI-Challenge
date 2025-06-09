@@ -1,0 +1,23 @@
+{
+  "name": "ai-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryzhykau/AI-Challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aryzhykau/AI-Challenge/issues"
+  },
+  "homepage": "https://github.com/aryzhykau/AI-Challenge#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
