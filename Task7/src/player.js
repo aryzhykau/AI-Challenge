@@ -25,7 +25,7 @@ class CPUPlayer extends Player {
   makeGuess() {
     let row, col;
     if (this.mode === 'target' && this.targetQueue.length > 0) {
-      const { row, col } = this.targetQueue.shift();
+      ({ row, col } = this.targetQueue.shift());
       if (this.guesses.has(`${row}${col}`)) {
         return this.makeGuess();
       }

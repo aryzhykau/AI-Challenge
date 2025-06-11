@@ -59,6 +59,21 @@ class Game {
     }
     const row = parseInt(guess[0]);
     const col = parseInt(guess[1]);
+
+    if (
+      row < 0 ||
+      row >= this.player.board.size ||
+      col < 0 ||
+      col >= this.player.board.size
+    ) {
+      console.log(
+        `Oops, please enter valid row and column numbers between 0 and ${
+          this.player.board.size - 1
+        }.`,
+      );
+      return false;
+    }
+
     const result = this.player.makeGuess(row, col);
 
     if (result === 'guessed') {
