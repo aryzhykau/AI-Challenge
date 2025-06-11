@@ -1,0 +1,21 @@
+
+> task7@1.0.0 test
+> jest --coverage --coverage
+
+PASS ./player.test.js
+PASS ./board.test.js
+PASS ./ship.test.js
+-----------|---------|----------|---------|---------|-------------------
+File       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------|---------|----------|---------|---------|-------------------
+All files  |   95.19 |     82.6 |     100 |   94.94 |                   
+ board.js  |   96.92 |       88 |     100 |   96.66 | 91,103            
+ player.js |    90.9 |    76.19 |     100 |    90.9 | 28-30             
+ ship.js   |     100 |      100 |     100 |     100 |                   
+-----------|---------|----------|---------|---------|-------------------
+
+Test Suites: 3 passed, 3 total
+Tests:       17 passed, 17 total
+Snapshots:   0 total
+Time:        0.249 s, estimated 1 s
+Ran all test suites.
