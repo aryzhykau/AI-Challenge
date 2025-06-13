@@ -9,3 +9,4 @@
 /test
 /tests
 /test-results
+**/node_modules
