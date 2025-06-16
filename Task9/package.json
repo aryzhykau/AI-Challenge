@@ -1,0 +1,22 @@
+{
+  "name": "service-analyzer",
+  "version": "1.0.0",
+  "description": "A console application to generate reports on services using AI.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ai",
+    "openai",
+    "console",
+    "report-generator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "inquirer": "^8.2.4",
+    "openai": "^4.0.0"
+  }
+} 
