@@ -1,0 +1,22 @@
+{
+  "name": "task10-product-search",
+  "version": "1.0.0",
+  "description": "A console-based product search tool using OpenAI function calling.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "openai",
+    "ai",
+    "search",
+    "nlp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "openai": "^5.5.1",
+    "readline-sync": "^1.4.10"
+  }
+}
