@@ -1,0 +1,5 @@
+node_modules
+.env
+transcription-*.md
+summary-*.md
+analysis-*.json 

@@ -1,0 +1,20 @@
+{
+  "name": "task11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "form-data": "^4.0.3",
+    "get-audio-duration": "^4.0.1",
+    "node-fetch": "^2.7.0",
+    "openai": "^5.5.1",
+    "yargs": "^17.7.2"
+  }
+}
